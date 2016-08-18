@@ -1,0 +1,68 @@
+<div id="hero">
+  <div class="inner">
+    <ul id="nav">
+      <li><a href="/guide/" class="nav-link">Guia</a></li>
+      <li><a href="/blog/" class="nav-link">Blog</a></li>
+    </ul>
+
+    <div id="logo-wrap">
+      <img src="/images/logo.png" id="logo" />
+      <h1>Stellar</h1>
+    </div>
+
+    <p class="desc">Uma framework web baseada em ações</p>
+
+    <p class="buttons">
+      <a href="/guide/installation.html" class="small-button">Instalar v<%- theme.stellar_version %></a>
+      <a href="/guide/index.html" class="small-button">Começar</a>
+    </p>
+
+    <ul id="social">
+      <li><a href="https://twitter.com/gil0mendes" class="twitter-follow-button" data-show-count="false" data-show-count="false" data-dnt="true">Seguir @gil0mendes</a></li>
+      <li><iframe src="//ghbtns.com/github-btn.html?user=gil0mendes&repo=stellar&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe></li>
+    </ul>
+
+    <ul id="translations">
+      <li><a href="https://stellar-framework.com" class="nav-link">English</a></li>
+    </ul>
+  </div>
+
+  <div class="down"><img src="/images/down.png" /></div>
+</div>
+
+<div id="example">
+  <h2>Exemplo Rápido</h2>
+  
+  <div class="block" style="margin-right: 5px;">
+    <figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line"># criar um novo projeto</span><br><span class="line">$ stellar init</span><br></pre></td></tr></tbody></table></figure>
+  </div>
+
+  <div class="block" style="margin-right: 5px; margin-left: 5px">
+    <figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line"># criar um novo modelo</span><br><span class="line">$ stellar makeModel post --module=private --crud</span><br></pre></td></tr></tbody></table></figure>
+  </div>
+
+  <div class="block" style="margin-left: 5px">
+    <figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line"># inicia um cluster</span><br><span class="line">$ stellar startCluster</span><br></pre></td></tr></tbody></table></figure>
+  </div>
+</div>
+
+<div id="why">
+  <h2>Deve experimentar se gosta de:</h2>
+
+  <ul>
+    <li>Foco na lógica do negócio</li>
+    <li>APIs que fazem sentido</li>
+    <li>Boa divisão das funcionalidades</li>
+    <li>Máxima reutilização</li>
+    <li>Rápida prototipagem</li>
+  </ul>
+</div>
+
+<div id="footer">
+  <a class="start" href="/guide/index.html">Get Started</a>
+  <p>Lançado sob a <a href="http://opensource.org/licenses/MIT" target="_blank">Licença MIT</a></p>
+  <p>Copyright (c) <%- date(Date.now(), 'YYYY') %> <a href="http://gilmendes.wordpress.com" target="_blank">Gil Mendes</a></p>
+</div>
+
+<!-- Twitter follow button script -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
